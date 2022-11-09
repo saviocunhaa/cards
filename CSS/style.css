@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color:#E5E5E5;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-natureza{
+    display: flex;
+    height: 432px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 32px;
+    flex-direction: column;
+    margin: 10px;
+}
+.card-natureza > img{
+    border-radius: 32px 32px 0 0;
+}
+.conteudo-natureza > h1{
+    margin: 20px 34px;
+    font-size: 32px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+    gap: 16px;
+}
+
+.user > p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.user-day{
+    color:  #787490;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.status > div{
+    color: #787490;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.icon-coment{
+    height: 22px;
+}
+
+.icon-view{
+    height: 22px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .container{
+        display: flex;
+        width: 100vw;
+        height: auto;
+        background-color:#E5E5E5;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+}
