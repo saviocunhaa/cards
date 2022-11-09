@@ -2,7 +2,7 @@
 <h1 align="center"> Desafio Cards</h1>
 
 <p align="center">
-Desafio proposto pelo curso da cominidade Codar.me! 
+Desafio proposto pelo curso da comunidade Codar.me! 
 </p>
 
 <p align="center">
